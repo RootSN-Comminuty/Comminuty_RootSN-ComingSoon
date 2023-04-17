@@ -77,3 +77,11 @@
   setInterval(countDownDate, 1000);
 
 })()
+
+let typed = new Typed("#rootsn", {
+  strings: ["Comminuty", "ytunimmoC"],
+  typeSpeed: 100,
+  backSpeed: 100,
+  showCursor: false,
+  loop: true
+});
