@@ -143,6 +143,27 @@ h6 {
   font-weight: 600;
 }
 
+#header .cyberimage {
+  width: 250px;
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+  animation: rocket 4s linear infinite;
+}
+
+@keyframes rocket {
+  0% {
+    bottom: 0;
+    opacity: 0;
+  }
+
+  100% {
+    bottom: 105%;
+    opacity: 1;
+  }
+}
+
+
 @media (max-width: 575px) {
   #header .countdown div {
     width: 70px;
@@ -158,6 +179,16 @@ h6 {
   #header .countdown div h4 {
     font-size: 14px;
     font-weight: 500;
+  }
+
+  #header .cyberimage {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 1078px) {
+  #header .cyberimage {
+    visibility: hidden;
   }
 }
 
