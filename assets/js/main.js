@@ -79,7 +79,7 @@
 })()
 
 let typed = new Typed("#rootsn", {
-  strings: ["Comminuty", "ytunimmoC"],
+  strings: ["Comminuty", "ʎʇᴉunɯɯoϽ"],
   typeSpeed: 100,
   backSpeed: 100,
   showCursor: false,
