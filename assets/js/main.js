@@ -79,7 +79,7 @@
 })()
 
 let typed = new Typed("#rootsn", {
-  strings: ["Comminuty", "ʎʇᴉunɯɯoϽ"],
+  strings: ["Community", "ʎʇᴉunɯɯoϽ"],
   typeSpeed: 100,
   backSpeed: 100,
   showCursor: false,
