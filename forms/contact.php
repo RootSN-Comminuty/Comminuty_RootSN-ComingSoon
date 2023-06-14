@@ -28,7 +28,7 @@
   $contact->smtp = array(
     'host' => 'smtp.gmail.com',
     'username' => 'ocbsn2022@gmail.com',
-    'password' => 'bqdvfzwgmzerctaw',
+    'password' => 'hcdivkeipznhaaph',
     'port' => '587'
   );
   
